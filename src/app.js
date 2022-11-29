@@ -16,6 +16,8 @@ app.use("/movies", moviesRouter);
 app.use("/reviews", reviewsRouter);
 app.use("/theaters", theatersRouter);
 
+// needs to have a "/" route, app will not allow page to load.
+
 // -- Not found handler --
 app.use(notFound);
 
